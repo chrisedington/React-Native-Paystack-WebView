@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git+https://github.com/just1and0/React-Native-Paystack-WebView.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m,swift}"
 
-  s.dependency 'React'
+  s.dependency 'React-Core'
 end
